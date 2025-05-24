@@ -1,11 +1,11 @@
 {
-    "name": "",
-    "short_name": "",
-    "description": "",
-    "start_url": "",
-    "display": "",
-    "background_color": "",
-    "theme_color": "",
+    "name": "Lab8_Starter",
+    "short_name": "erictuannong",
+    "description": "Easy to make recipes.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#808080",
+    "theme_color": "#0000FF",
     "icons": [
       {
         "src": "/assets/images/icons/icon-192x192.png",
@@ -13,5 +13,4 @@
         "type": "image/png"
       }
     ]
-  }
-  
+}

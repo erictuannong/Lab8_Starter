@@ -1,1 +1,4 @@
 # Lab8-Starter
+Erictuan Nong
+
+Graceful degradation ensures basic functionality even if older browsers won't support them or whatever the case may be. Service workers are a background script that caches assets, intercepts fetches, and enables offline usage. They are both related in the sense that service workers enable graceful degradation by allowing our web app to continue functioning even when network is either slow or off. This is just like graceful degradation as its main purpose is to ensure our website has basic functionality even if some features fail or are missing. In the context of service workers these features would be the network.
