@@ -43,6 +43,8 @@ self.addEventListener('activate', function (event) {
         return cachedResponse || fetch(event.request).then((fetchedResponse) => {
           cache.put(event.request, fetchedResponse.clone());
           return fetchedResponse;
+        }).catch(() => {
+          return cache.match(event.request);
         });
       });
     }));
