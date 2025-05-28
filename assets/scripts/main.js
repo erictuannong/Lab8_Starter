@@ -106,7 +106,7 @@ async function getRecipes() {
           resolve(arr);
         }
       } catch (error) {
-        console.error('Fetch error:'. error);
+        console.error('Fetch error:', error);
         reject(error);
       }
     }
